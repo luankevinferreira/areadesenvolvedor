@@ -37,7 +37,7 @@
                   }
                 ],
                 "exception": "string",
-                "allowPublicAccess": "string"
+                "isPublicAccessAllowed": "string"
               },
               "services": [
                 {
@@ -73,7 +73,7 @@
 |Nome   |Tipo                                                                           |Obrigatório|Definição                                  |
 |:----- |:----------------------------------------------------------------------------- |---------- |------------------------------------------ |
 |data   |object                                                                         |Sim        |                                           |
-|» brand|[SharedAutomatedTellerMachinesBrand](#schemaSharedAutomatedTellerMachinesBrand)|Não        |Nome da marca selecionada pela Organização.|
+|» brand|[SharedAutomatedTellerMachinesBrand](#schemaSharedAutomatedTellerMachinesBrand)|Não        |Organização controladora do grupo de instituições financeiras.|
 |links  |[Links](#schemaLinksPaginated)                                                 |Sim        |                                           |
 |meta   |[Meta](#schemaMetaPaginated)                                                   |Sim        |                                           |
 
@@ -115,7 +115,7 @@
               }
             ],
             "exception": "string",
-            "allowPublicAccess": "string"
+            "isPublicAccessAllowed": "string"
           },
           "services": [
             {
@@ -137,7 +137,7 @@
 
 |Nome     |Tipo                                                                                     |Obrigatório|Definição                                  |
 |:------- |:--------------------------------------------------------------------------------------- |:--------- |:----------------------------------------- |
-|name     |string                                                                                   |Não        |Nome da marca selecionada pela Organização.|
+|name     |string                                                                                   |Não        |Nome da Marca selecionada pelas Organizações.|
 |companies|[[SharedAutomatedTellerMachinesCompanies](#schemaSharedAutomatedTellerMachinesCompanies)]|Não        |Lista de instituições pertencentes à marca |
 
 ## SharedAutomatedTellerMachinesCompanies
@@ -174,7 +174,7 @@
           }
         ],
         "exception": "string",
-        "allowPublicAccess": "string"
+        "isPublicAccessAllowed": "string"
       },
       "services": [
         {
@@ -233,7 +233,7 @@
       }
     ],
     "exception": "string",
-    "allowPublicAccess": "string"
+    "isPublicAccessAllowed": "string"
   },
   "services": [
     {
