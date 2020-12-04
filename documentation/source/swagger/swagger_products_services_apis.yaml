@@ -2603,7 +2603,7 @@ components:
       properties:
         cnpjNumber:
           type: string
-          pattern: '\d{14}|^NA$'
+          pattern: '^(\d{14})$|^NA$'
           description: CNPJ
           maxLength: 14
           example: "50685362000135"
