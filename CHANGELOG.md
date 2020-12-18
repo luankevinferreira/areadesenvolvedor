@@ -11,6 +11,17 @@
 * Corrige descrição de `branch/type`;
 * Corrige pattern de `branch/checkDigit`;
 * Corrige o número da versão da API de Contas PJ no Slate Docs;
+* Atualiza os seguintes dicionários com correções pontuais:
+  - `automated_teller_machines.csv`;
+  - `business_accounts.csv`;
+  - `business_financings.csv`;
+  - `business_invoice_finanfings.csv`;
+  - `business_loans.csv`;
+  - `personal_accounts.csv`;
+  - `personal_financings.csv`;
+  - `personal_invoice_financings.csv`;
+  - `personal_loans.csv`;
+  - `personal_unarranged_account_overdraft.csv`;
 
 # 3.0.0
 [14/12/2020]
